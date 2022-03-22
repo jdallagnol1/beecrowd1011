@@ -6,11 +6,174 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DA13A75727EA16CF008D08A4 /* SphereSteps.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = SphereSteps.java; sourceTree = "<group>"; };
+		DA13A75827EA16CF008D08A4 /* Bee1011Steps.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Bee1011Steps.java; sourceTree = "<group>"; };
+		DA13A75927EA16CF008D08A4 /* RunCucumberTest.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = RunCucumberTest.java; sourceTree = "<group>"; };
+		DA13A76427EA1757008D08A4 /* Main.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Main.java; sourceTree = "<group>"; };
+		DA13A76527EA1757008D08A4 /* Sphere.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Sphere.java; sourceTree = "<group>"; };
+		DA13A76F27EA17C4008D08A4 /* sphere.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = sphere.feature; sourceTree = "<group>"; };
+		DA13A77027EA17C4008D08A4 /* bee1011.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = bee1011.feature; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		DA13A74F27EA16AC008D08A4 = {
 			isa = PBXGroup;
 			children = (
+				DA13A76727EA1789008D08A4 /* target */,
+				DA13A76627EA1763008D08A4 /* src */,
 			);
+			sourceTree = "<group>";
+		};
+		DA13A75627EA16CF008D08A4 /* bee1011 */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75727EA16CF008D08A4 /* SphereSteps.java */,
+				DA13A75827EA16CF008D08A4 /* Bee1011Steps.java */,
+				DA13A75927EA16CF008D08A4 /* RunCucumberTest.java */,
+			);
+			path = bee1011;
+			sourceTree = "<group>";
+		};
+		DA13A75A27EA16DC008D08A4 /* masmangan */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75627EA16CF008D08A4 /* bee1011 */,
+			);
+			path = masmangan;
+			sourceTree = "<group>";
+		};
+		DA13A75B27EA16F2008D08A4 /* br */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75A27EA16DC008D08A4 /* masmangan */,
+			);
+			name = br;
+			sourceTree = "<group>";
+		};
+		DA13A75C27EA16FF008D08A4 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75B27EA16F2008D08A4 /* br */,
+			);
+			name = java;
+			sourceTree = "<group>";
+		};
+		DA13A75D27EA1708008D08A4 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75C27EA16FF008D08A4 /* java */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		DA13A75E27EA171E008D08A4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75F27EA173B008D08A4 /* java */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		DA13A75F27EA173B008D08A4 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76027EA1741008D08A4 /* br */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		DA13A76027EA1741008D08A4 /* br */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76127EA1746008D08A4 /* masmangan */,
+			);
+			path = br;
+			sourceTree = "<group>";
+		};
+		DA13A76127EA1746008D08A4 /* masmangan */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76227EA174D008D08A4 /* beecrowd */,
+			);
+			path = masmangan;
+			sourceTree = "<group>";
+		};
+		DA13A76227EA174D008D08A4 /* beecrowd */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76327EA1757008D08A4 /* bee1011 */,
+			);
+			path = beecrowd;
+			sourceTree = "<group>";
+		};
+		DA13A76327EA1757008D08A4 /* bee1011 */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76427EA1757008D08A4 /* Main.java */,
+				DA13A76527EA1757008D08A4 /* Sphere.java */,
+			);
+			path = bee1011;
+			sourceTree = "<group>";
+		};
+		DA13A76627EA1763008D08A4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A75E27EA171E008D08A4 /* main */,
+				DA13A75D27EA1708008D08A4 /* test */,
+			);
+			name = src;
+			path = br;
+			sourceTree = "<group>";
+		};
+		DA13A76727EA1789008D08A4 /* target */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76827EA1799008D08A4 /* test-classes */,
+			);
+			name = target;
+			path = br;
+			sourceTree = "<group>";
+		};
+		DA13A76827EA1799008D08A4 /* test-classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76927EA17AE008D08A4 /* br */,
+			);
+			name = "test-classes";
+			sourceTree = "<group>";
+		};
+		DA13A76927EA17AE008D08A4 /* br */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76A27EA17B2008D08A4 /* masmangan */,
+			);
+			name = br;
+			sourceTree = "<group>";
+		};
+		DA13A76A27EA17B2008D08A4 /* masmangan */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76B27EA17B8008D08A4 /* beecrowd */,
+			);
+			name = masmangan;
+			sourceTree = "<group>";
+		};
+		DA13A76B27EA17B8008D08A4 /* beecrowd */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76C27EA17C4008D08A4 /* bee1011 */,
+			);
+			name = beecrowd;
+			sourceTree = "<group>";
+		};
+		DA13A76C27EA17C4008D08A4 /* bee1011 */ = {
+			isa = PBXGroup;
+			children = (
+				DA13A76F27EA17C4008D08A4 /* sphere.feature */,
+				DA13A77027EA17C4008D08A4 /* bee1011.feature */,
+			);
+			path = bee1011;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
